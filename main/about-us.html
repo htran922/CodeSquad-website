@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<title>
-		The CodeSquad story
+		The CodeSquad Story
 	</title>
   <!-- Bootstrap core CSS -->
     <link rel="stylesheet" type="text/css" href="../assets/css/lib/bootstrap.min.css">
@@ -40,7 +40,13 @@
 	        <li><a href="index.html">What we do</a></li>
 	        <li><a href="businesses.html">For businesses</a></li>
 	        <li><a href="students.html">For students</a></li>
-	        <li class="active"><a href="#">About us<span class="sr-only">(current)</span></a></li>
+	        <li class="dropdown active">
+        		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us <span class="caret"></span></a>
+            	<ul class="dropdown-menu" id="cohortDropdown">
+	              <li><a href="about-us.html">The CodeSquad Story</a></li>
+	              <li><a href="cohort.html">Spring 2018 Cohort</a></li>
+	            </ul>
+	        </li>
 	        <li class="dropdown">
 	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Get involved <span class="caret"></span></a>
 	          <ul class="dropdown-menu">
@@ -58,7 +64,7 @@
 	<div class="positionRel">
 		<img src="../assets/img/DSC_3558.jpg" width="1920"  class="img-responsive center-block">
 	  <div class="headlineTxt headlineTxtAbout center mobileHide">
-	   	The CodeSquad story
+	   	The CodeSquad Story
 		</div>
 	</div>
 	<div class="red-bar">
@@ -278,7 +284,7 @@
 
 
 	<!-- jQuery link & Bootstrap JS link -->
-	<script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
 	  crossorigin="anonymous"></script>
 	<script src="../assets/js/lib/bootstrap.min.js" type="text/javascript"></script>
 
