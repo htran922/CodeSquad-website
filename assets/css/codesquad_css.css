@@ -184,6 +184,18 @@ ul li ul li {
 	height: 600px;
 }
 
+.eventDates {
+	border-collapse: collapse;
+}
+
+.eventDates td {
+	padding: 8px;
+}
+
+.eventDates .borderLeft {
+	border-left: 1px solid rgba(0,0,0,.125);
+}
+
 .FBbutton {
 	/*position: absolute;*/
 	/*left: 30%;*/
