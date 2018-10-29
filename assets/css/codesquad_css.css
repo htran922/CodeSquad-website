@@ -505,6 +505,7 @@ p {
 
 .ptrTxt {
 	color: white;
+	padding: 2% 5% 2% 0;
 }
 
 .red-bar {
@@ -609,6 +610,7 @@ select {
 	width: 80%;
 }
 
+
 @media only screen and (max-width: 700px) {
 	.card-TechAdvisor {
 		padding: 0;	
@@ -650,17 +652,29 @@ select {
 		display: inline-block;
 		padding-bottom: 2%;
 	}
-.mobileHide {
+	.mobileHide {
 		display: none;
 	}
 	.momentumRed {
 		font-size: 2em;
+	}
+	.nav-pills > li {
+		padding: 0 3% 0 3%;
+	}
+	.nav-pills > li > a {
+		padding: 0;
 	}
 	p {
 		font-size: small;
 	}
 	.pOverflow {
 		font-size: small;
+	}
+	.ptrImg {
+		height: 30px;
+	}
+	.ptrTxt {
+		font-size: large;
 	}
 /*	.red-bar {
 		color: rgb(203,53,36);
