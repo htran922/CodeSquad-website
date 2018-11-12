@@ -364,6 +364,19 @@ img {
 	margin: 0;
 }
 
+.imgLP {
+	background-image: url("../img/LenaParkTechCafe.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 200px;
+}
+
+/*img.ptr {
+	display: block;
+	margin: 0px auto;
+  max-width: 400px;
+}*/
+
 input[type=text] {
 	color: rgb(160,160,158);
 	width: 100%;
@@ -655,6 +668,10 @@ select {
 		top: 110%;
 		left: 18%;
 	}
+/*	img.ptr {
+		width: 400px;
+		height: auto;		
+	}*/
 	.joinUsBtn, .FBbutton {
 		font-size: large;
 	}
