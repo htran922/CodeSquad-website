@@ -365,10 +365,10 @@ img {
 }
 
 .imgLP {
-	background-image: url("../img/LenaParkTechCafe.jpg");
-	background-repeat: no-repeat;
-	background-position: center top;
-	height: 200px;
+	/*background-image: url("../img/LenaParkTechCafe.jpg");*/
+	/*background-repeat: no-repeat;*/
+	/*background-position: center top;*/
+	width: 400px;
 }
 
 /*img.ptr {
@@ -524,7 +524,6 @@ p {
 
 .ptrTxt {
 	color: white;
-	padding: 2% 5% 2% 0;
 }
 
 .red-bar {
@@ -702,9 +701,12 @@ select {
 		float: left;
 		margin: 0 10px 0 10px;
 	}
-	.ptrTxt h3, .ptrTxt p {
+	.ptrTxt h3 {
 		padding: 0 5px 0 5px;
 		margin: 0 auto;
+	}
+	.ptrP {
+		margin: 5%;
 	}
 	.slantBoxRed, .slantBoxBlk {
 		padding: 1% 5%;
