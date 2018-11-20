@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Experiments with layout of Our Partners section</title>
+	<style type="text/css">
+		body {
+			width: 90%;
+			margin: 0 auto;
+			text-align: center;
+		}
+		#content {
+			overflow: auto;
+		}
+		#feature, #footer {
+				margin: 1%;
+			}
+		.column1, .column2, .column3, .column4 {
+			width: 23%;
+			float: left;
+			margin: 1%;
+			/*border-top: 1px solid black;*/
+		}		
+		.column4 {
+			margin-right: 0%;
+		}
+		li {
+			display: inline;
+			padding: 0.5em;
+		}
+		#footer {
+			background-color: #efefef;
+			padding: 0.5em 0;
+		}
+		#feature, .article {
+			height: 10em;
+			margin-bottom: 1em;
+			background-color: #efefef;
+		}
+	</style>
+</head>
+<body>
+	<div id="content">
+		<div id="feature">
+			<p>Feature</p>
+		</div>
+		<div class="article column1">
+			Column One
+		</div>
+		<div class="article column2">
+			Column Two
+		</div>
+		<div class="article column3">
+			Column Three
+		</div>
+		<div class="article column4">
+			Column Four
+		</div>
+	</div>
+	<div id="footer">
+		<p>&copy; Copyright 2018</p>
+	</div>
+</body>
+</html>
