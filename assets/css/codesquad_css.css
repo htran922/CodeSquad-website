@@ -563,7 +563,7 @@ select {
 }
 
 .slantIndex {
-    background: url('../img/img_8105_crop2.jpg');
+    background: url('../img/9484-cropVert.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 304px;
@@ -577,6 +577,13 @@ select {
 
 .slantStudent {
     background: url('../img/img_8089_crop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 280px;
+}
+
+.slantStudent2 {
+    background: url('../img/9484-cropVert.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 280px;
