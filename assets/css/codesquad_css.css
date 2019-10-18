@@ -216,6 +216,17 @@ ul li ul li {
 	/*cursor: pointer;	*/
 }
 
+.flexContainer {
+	display: flex;
+	justify-content: center;
+}
+.flexChild {
+	margin: 0 0 3% 3%;
+}
+.flexCol {
+	width: 25%;
+}
+
 .footerFont {
 	color: rgb(160,160,158);
 }
@@ -317,19 +328,20 @@ h5 {
 	letter-spacing: 2.3px;
 	text-shadow: 2px 2px black;
 }
-
 .headlineTxt2 {
 	/* Sub-head */
 	font-size: 2.4vw;
 	top: 52%;
 	left: 14%;
 }
-
 .headlineTxtAbout {
 	top: 44%;
 	left: 29%;
 }
-
+.headlineTxtApply {
+	top: 14%;
+	left: 51%;
+}
 .headlineTxtBiz {
 	top: 37%;
 	left: 10%;
@@ -350,12 +362,10 @@ h5 {
 	top: 37%;
 	left: 7%;
 }
-
 .headlineTxtStudents {
 	top: 51%;
 	left: 36%;
 }
-
 .headlineTxtVol {
 	font-size: 3.3vw;
 	top: 8%;
@@ -619,6 +629,12 @@ select {
 	.card-TechAdvisor {
 		padding: 0;	
 	}
+	.flexCol {
+		width: 100%;
+	}
+	.flexChild {
+		width: 100%;
+	}	
 	h1, h2 {
 		font-size: large;
 	}
