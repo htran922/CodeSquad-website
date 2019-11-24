@@ -354,6 +354,9 @@ h5 {
 .headlineTxtDonate {
 	top: 44%;
 	left: 26%;
+	margin: 20px 0 0 0;
+	padding: 0px 20px;
+	background-color: black;
 }
 .headlineTxtJobs {
 	top: 66%;
@@ -382,14 +385,14 @@ img {
 	margin: 0;
 }
 
-input[type=text] {
+/* input[type=text] {
 	color: rgb(160,160,158);
 	width: 100%;
 	background-color: rgb(36,34,35);
 	padding: 12px 0px;
 	border: none;
 	border-bottom: 1px solid rgb(160,160,158);
-}
+} */
 
 .joinUsBtn {
 	position: absolute;
