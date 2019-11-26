@@ -186,6 +186,13 @@ ul li ul li {
 	background-color: white;
 }
 
+.donateBak {
+	background: url('../img/Dudley2Kendall.png');
+	background-size: 100% auto;
+	/* background-position: center top; */
+	background-repeat: no-repeat;
+}
+
 .divSpacer {
 	height: 600px;
 }
@@ -355,6 +362,8 @@ h5 {
 	top: 44%;
 	left: 26%;
 	margin: 20px 0 0 0;
+	/* color: black; */
+	/* text-shadow: none; */
 	padding: 0px 20px;
 	background-color: black;
 }
