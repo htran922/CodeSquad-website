@@ -193,6 +193,10 @@ ul li ul li {
 	background-repeat: no-repeat;
 }
 
+.donateBlurb {
+	padding: 3% 0 0 0;
+}
+
 .divSpacer {
 	height: 600px;
 }
@@ -227,6 +231,7 @@ ul li ul li {
 .flexContainer {
 	display: flex;
 	justify-content: center;
+	align-items: center;	
 }
 .flexChild {
 	margin: 0 0 3% 3%;
