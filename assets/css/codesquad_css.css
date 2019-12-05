@@ -178,9 +178,9 @@ body {
 	text-align: center;
 }
 
-/*div {
-	border: 1px solid blue;
-}*/
+.container-fluid {
+	padding-right: 0;
+}
 
 ul li ul li {
 	background-color: white;
