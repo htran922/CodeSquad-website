@@ -194,7 +194,16 @@ ul li ul li {
 }
 
 .donateBlurb {
-	padding: 3% 0 0 0;
+	padding: 0 3%;
+}
+
+.donateBtn {
+	text-decoration: none;
+	font-size: large;
+	border: none;
+	margin: 2% auto;
+	width: 160px;
+	cursor: pointer;
 }
 
 .divSpacer {
@@ -543,6 +552,10 @@ p {
 	margin: 0 auto;
 }
 
+.red-bar-empty{
+	height: 30px;
+}
+
 .redSlant {
 	position: absolute;
 	top: 0;
@@ -604,6 +617,13 @@ select {
     background: url('../img/img_9511.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.slantDonate {
+	background: url('../img/handshake4.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 280px;
 }
 
 .slantStudent {
@@ -702,9 +722,6 @@ select {
 	.pOverflow {
 		font-size: small;
 	}
-/*	.red-bar {
-		color: rgb(203,53,36);
-	}*/
 	.slantBoxRed, .slantBoxBlk {
 		padding: 1% 5%;
 	}
