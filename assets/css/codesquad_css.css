@@ -77,12 +77,13 @@ body {
 
 .btnBuildSkills {
 	height: 20%;
-	width: 40%;
+	width: 50%;
 	text-decoration: none;
 	font-size: large;
 	border: none;
 	cursor: pointer;
 	margin: 2% 30%;
+	padding: 3% 2%;
 }
 
 #btn1stLine {
@@ -91,7 +92,7 @@ body {
 }
 
 #btn2ndLine {
-	font-size: small;
+	font-size: medium;
 	text-align: center;
 	padding: 0;
 	margin: 0;
@@ -177,12 +178,32 @@ body {
 	text-align: center;
 }
 
-/*div {
-	border: 1px solid blue;
-}*/
+.container-fluid {
+	padding-right: 0;
+}
 
 ul li ul li {
 	background-color: white;
+}
+
+.donateBak {
+	background: url('../img/Dudley2Kendall.png');
+	background-size: 100% auto;
+	/* background-position: center top; */
+	background-repeat: no-repeat;
+}
+
+.donateBlurb {
+	padding: 0 3%;
+}
+
+.donateBtn {
+	text-decoration: none;
+	font-size: large;
+	border: none;
+	margin: 2% auto;
+	width: 160px;
+	cursor: pointer;
 }
 
 .divSpacer {
@@ -214,6 +235,18 @@ ul li ul li {
 	padding: 0 2%;
 	margin: 0 20%;
 	/*cursor: pointer;	*/
+}
+
+.flexContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+.flexChild {
+	margin: 0 0 3% 3%;
+}
+.flexCol {
+	width: 25%;
 }
 
 .footerFont {
@@ -288,7 +321,7 @@ h5 {
 
 .headlineBtn {
 	/*height: 12%;*/
-	width: 15%;
+	width: 16%;
 	text-decoration: none;
 	font-size: large;
 	border: none;
@@ -317,38 +350,49 @@ h5 {
 	letter-spacing: 2.3px;
 	text-shadow: 2px 2px black;
 }
-
 .headlineTxt2 {
 	/* Sub-head */
 	font-size: 2.4vw;
 	top: 52%;
 	left: 14%;
 }
-
 .headlineTxtAbout {
 	top: 44%;
 	left: 29%;
 }
-
+.headlineTxtApply {
+	top: 14%;
+	left: 51%;
+}
 .headlineTxtBiz {
 	top: 37%;
 	left: 10%;
 }
-
 .headlineTxtCohort {
-	top: 72%;
+	top: 79%;
 	left: 31%;
+}
+.headlineTxtDonate {
+	top: 44%;
+	left: 26%;
+	margin: 20px 0 0 0;
+	/* color: black; */
+	/* text-shadow: none; */
+	padding: 0px 20px;
+	background-color: black;
+}
+.headlineTxtJobs {
+	top: 66%;
+	left: 28%;
 }
 .headlineTxtHome {
 	top: 37%;
 	left: 7%;
 }
-
 .headlineTxtStudents {
 	top: 51%;
 	left: 36%;
 }
-
 .headlineTxtVol {
 	font-size: 3.3vw;
 	top: 8%;
@@ -364,27 +408,14 @@ img {
 	margin: 0;
 }
 
-.imgLP {
-	/*background-image: url("../img/LenaParkTechCafe.jpg");*/
-	/*background-repeat: no-repeat;*/
-	/*background-position: center top;*/
-	width: 400px;
-}
-
-/*img.ptr {
-	display: block;
-	margin: 0px auto;
-  max-width: 400px;
-}*/
-
-input[type=text] {
+/* input[type=text] {
 	color: rgb(160,160,158);
 	width: 100%;
 	background-color: rgb(36,34,35);
 	padding: 12px 0px;
 	border: none;
 	border-bottom: 1px solid rgb(160,160,158);
-}
+} */
 
 .joinUsBtn {
 	position: absolute;
@@ -536,6 +567,10 @@ p {
 	margin: 0 auto;
 }
 
+.red-bar-empty{
+	height: 30px;
+}
+
 .redSlant {
 	position: absolute;
 	top: 0;
@@ -587,7 +622,7 @@ select {
 }
 
 .slantIndex {
-    background: url('../img/img_8105_crop2.jpg');
+    background: url('../img/9484-cropVert.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 304px;
@@ -599,8 +634,22 @@ select {
     background-repeat: no-repeat;
 }
 
+.slantDonate {
+	background: url('../img/handshake4.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 280px;
+}
+
 .slantStudent {
     background: url('../img/img_8089_crop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 280px;
+}
+
+.slantStudent2 {
+    background: url('../img/9484-cropVert.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 280px;
@@ -634,6 +683,12 @@ select {
 	.card-TechAdvisor {
 		padding: 0;	
 	}
+	.flexCol {
+		width: 100%;
+	}
+	.flexChild {
+		width: 100%;
+	}	
 	h1, h2 {
 		font-size: large;
 	}
