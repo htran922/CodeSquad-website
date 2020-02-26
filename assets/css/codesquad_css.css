@@ -487,6 +487,7 @@ input[type=text] {
 .nav-pills>li.active>a, 
 .nav-pills>li.active>a:hover, 
 .nav-pills>li.active>a:focus, .nav>li>a:hover, .nav .nav-item {
+	color: #343434;
 	background-color: white;
 }
 
