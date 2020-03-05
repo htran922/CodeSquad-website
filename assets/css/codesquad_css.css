@@ -741,7 +741,7 @@ select {
 		font-size: 2em;
 	}
 	.nav-pills > li {
-		padding: 0 3% 0 3%;
+		/* padding: 0 3%; */
 	}
 	.nav-pills > li > a {
 		padding: 0;
@@ -757,8 +757,6 @@ select {
 	}
 	.ptrImg {
 		width: 23%;
-		/*height: 30px;*/
-		float: left;
 		margin: 0 1%;
 	}
 	.ptrTxt h3 {
