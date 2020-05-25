@@ -1,10 +1,15 @@
+html {
+	padding: 0;
+	margin: 0;
+}
+
 a {
 	color: rgb(160,160,158);
 }
 
-.active {
+/* .active {
 	background-color: rgb(203,53,36);
-}
+} */
 
 /*.bizBak {
 	background: url('../img/img_8085_crop2.jpg');
@@ -179,7 +184,7 @@ body {
 }
 
 .container-fluid {
-	padding-right: 0;
+	padding: 0;
 }
 
 ul li ul li {
@@ -440,6 +445,10 @@ img {
 	display: inline;
 }
 
+.graduateCompanies div {
+	margin: 15px 0;
+}
+
 .momentumBak {
     background: url('../img/img_8257_momentum3.jpg');
     background-size: cover;
@@ -470,11 +479,20 @@ img {
 	left: 40%;
 }
 
+.momentumFacts {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
 .momentumRed {
 	color: rgb(203,53,36);
-	font-size: 3em;
+	font-size: 1.5em;
 	padding-top: 0.5%;
 	padding-bottom: 1%;
+	text-align: right;
 }
 
 .momentumTxt {
@@ -486,6 +504,10 @@ img {
 .momentumUL {
 	padding: 0 5%;
 	margin: 0;
+}
+
+.navbar-header {
+	padding: 0 10px 10px;
 }
 
 .navbar {
@@ -535,6 +557,15 @@ p {
 
 .positionRel {
 	position: relative;
+}
+
+.positionRel .row {
+	padding: 0 10px;
+}
+
+.positionRel p {
+	margin: 0;
+	
 }
 
 .pOverflow {
@@ -713,10 +744,7 @@ select {
 .mobileHide {
 		display: none;
 	}
-	.momentumRed {
-		font-size: 2em;
-	}
-	p {
+	p, li {
 		font-size: small;
 	}
 	.pOverflow {
