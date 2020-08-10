@@ -389,6 +389,14 @@ h5 {
 	top: 37%;
 	left: 7%;
 }
+.headlineTxtProj2 {
+	top: 3%;
+	left: 25%;
+}
+.headlineTxtProj {
+	top: 10%;
+	left: 70%;
+}
 .headlineTxtStudents {
 	top: 51%;
 	left: 36%;
@@ -618,6 +626,11 @@ select {
     background-size: cover;
     background-repeat: no-repeat;
 }
+.slantProj {
+    background: url('../img/gratitude.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 .slantDonate {
 	background: url('../img/handshake4.jpg');
@@ -695,8 +708,8 @@ select {
 		top: 97%;
 		left: 0%;
 	}
-	.headlineTxtStudents {
-		top: 102%;
+	.headlineTxtProj {
+		top: 110%;
 		left: 9%;
 	}
 	.headlineTxtVol {
@@ -710,13 +723,13 @@ select {
 		display: inline-block;
 		padding-bottom: 2%;
 	}
-.mobileHide {
+	.mobileHide {
 		display: none;
 	}
 	.momentumRed {
 		font-size: 2em;
 	}
-	p {
+	p, li {
 		font-size: small;
 	}
 	.pOverflow {
