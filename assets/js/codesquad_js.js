@@ -6,3 +6,7 @@
 
 // THE LINE BELOW CHANGES THE TEXT; STILL NEED TO ADD SCREEN-SIZE TEST
 // document.getElementById("redTxtHome").innerHTML = "New text!";
+
+$('.carousel').carousel({
+  interval: 2000
+})
