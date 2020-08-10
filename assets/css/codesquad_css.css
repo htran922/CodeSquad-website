@@ -7,9 +7,9 @@ a {
 	color: rgb(160,160,158);
 }
 
-/* .active {
+.active {
 	background-color: rgb(203,53,36);
-} */
+}
 
 /*.bizBak {
 	background: url('../img/img_8085_crop2.jpg');
@@ -463,22 +463,17 @@ img {
     background-repeat: no-repeat;
 }
 
-.momentumBlurbHead {
+/* .momentumBlurbHead {
 	text-transform: uppercase;
-	/*margin: -1% 0;*/
-	/*padding: 0;*/
-}
+	margin: -1% 0;
+	padding: 0;
+} */
 
-.momentumBlurbTxt {
-	/*position: relative;*/
-	/*top: 50%;*/
+/* .momentumBlurbTxt {
 	font-size: large;
 	line-height: 1.5;
 	padding: 2% 0 1% 3%;
-	/*padding-top: 2%;*/
-	/*padding-left: 3%;*/
-	/*padding-bottom: 1%;*/
-}
+} */
 
 .momentumHeadline {
 	position: absolute;
@@ -497,13 +492,14 @@ img {
 
 .momentumRed {
 	color: rgb(203,53,36);
-	font-size: 1.5em;
-	padding-top: 0.5%;
+	font-size: 3em;
+	/* padding-top: 0.5%; */
 	padding-bottom: 1%;
 }
 
 .momentumTxt {
-	position: absolute;
+	color: black;
+	text-align: left;	
 	font-size: large;
 }
 
