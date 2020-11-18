@@ -453,7 +453,8 @@ img {
 	display: inline;
 }
 
-.graduateCompanies div {
+.graduateCompanies div,
+.funderCompanies div {
 	margin: 15px 0;
 }
 
@@ -790,3 +791,17 @@ select {
 	    column-gap: 1.25rem;
 	}
 }
+
+@media (min-width: 768px) {
+  .equal-columns {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.vertical-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
