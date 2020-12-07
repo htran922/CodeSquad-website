@@ -103,6 +103,12 @@ body {
 	margin: 0;
 }
 
+.calloutTxt {
+	border: 1px solid #252525;
+	width: 40%;
+	margin: auto;
+}
+
 .card {
 	border: 1px solid rgba(0,0,0,.125);
 	border-radius: .25rem;
@@ -715,6 +721,9 @@ select {
 }
 
 @media only screen and (max-width: 700px) {
+	.calloutTxt {
+		width: 100%;
+	}
 	.card-TechAdvisor {
 		padding: 0;	
 	}
