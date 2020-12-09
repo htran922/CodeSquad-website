@@ -716,6 +716,12 @@ select {
 	border-width: 1px;*/
 }
 
+.vertical-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .width60 {
 	width: 60%;
 	margin-bottom: 5%;
@@ -725,6 +731,7 @@ select {
 	width: 80%;
 }
 
+/* Mobile phones */
 @media only screen and (max-width: 700px) {
 	.calloutTxt {
 		width: 100%;
@@ -816,9 +823,26 @@ select {
   }
 }
 
-.vertical-align {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+/* Smaller laptops */
+@media (max-width: 1024px) {
+	.navbar-right li {
+		padding-right: 5px;
+		padding-left: 5px;
+	}
 }
 
+/* Tablets */
+@media (max-width: 768px) {
+	.navbar-brand img {
+		height: 50px;
+		padding-top: 5px;
+	}
+	.navbar-right li {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.navbar-right li a {
+		padding: 10px;
+		font-size: small;
+		}
+}
